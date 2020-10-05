@@ -23,6 +23,7 @@ export default {
 <style>
 .dark-mode{
   background-color: #151515;
+	color: azure;
 }
 
 .checkbox {
