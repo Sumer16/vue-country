@@ -1,5 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import Capital from '../components/Capital.vue'
+import Region from '../components/Region.vue'
+import CallingCode from '../components/CallingCode.vue';
+import CurrencyCode from '../components/CurrencyCode.vue';
 
 const routes = [
   {
@@ -10,7 +14,27 @@ const routes = [
   {
     path: '/search-by',
     name: 'Search',
-    component: () => import(/* webpackChunkName: "search-by" */ '../views/SearchBy.vue')
+    component: () => import(/* webpackChunkName: "search-by" */ '../views/SearchBy.vue'),
+  },
+  {
+    path: '/search-by/capital',
+    name: 'Capital',
+    component: Capital
+  },
+  {
+    path: '/search-by/region',
+    name: 'Region',
+    component: Region
+  },
+  {
+    path: '/search-by/calling-code',
+    name: 'CallingCode',
+    component: CallingCode
+  },
+  {
+    path: '/search-by/currency-code',
+    name: 'CurrencyCode',
+    component: CurrencyCode
   },
   {
     path: '/all-countries',
