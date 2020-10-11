@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 bg-gray-500 body-font">
+  <header class="sticky w-full top-0 bg-gray-200 body-font border-b-2 shadow-lg">
     <div class="container mx-auto flex flex-wrap p-4 flex-row justify-between items-center">
       <a class="flex title-font font-medium items-center text-black mb-1 md:mb-0">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">

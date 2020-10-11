@@ -21,11 +21,6 @@ export default {
 </script>
 
 <style>
-.dark-mode{
-  background-color: #151515;
-	color: azure;
-}
-
 .checkbox {
 	opacity: 0;
 	position: absolute;
