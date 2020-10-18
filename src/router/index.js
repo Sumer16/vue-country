@@ -4,6 +4,7 @@ import Capital from '../components/Capital.vue'
 import Region from '../components/Region.vue'
 import CallingCode from '../components/CallingCode.vue';
 import CurrencyCode from '../components/CurrencyCode.vue';
+import Country from '../components/Country.vue';
 
 const routes = [
   {
@@ -35,6 +36,11 @@ const routes = [
     path: '/search-by/currency-code',
     name: 'CurrencyCode',
     component: CurrencyCode
+  },
+  {
+    path: '/search-by/country',
+    name: 'Country',
+    component: Country
   },
   {
     path: '/all-countries',
